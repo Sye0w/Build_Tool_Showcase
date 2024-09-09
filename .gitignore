@@ -1,0 +1,7 @@
+# Node modules directory
+node_modules/
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.swp
