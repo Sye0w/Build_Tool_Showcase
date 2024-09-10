@@ -59,5 +59,11 @@ module.exports = {
     },
     mode: 'development',
 
-   
+    // Task#9: Optimize the production build
+    optimization: {  
+        splitChunks: { 
+            chunks: 'all',  
+        },  
+        minimize: true,
+    },
 };
