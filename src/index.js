@@ -1,6 +1,16 @@
-import './styles.scss';
-import { Header } from './components/header';
-import { Content } from './components/content';
-import { Footer } from './components/footer';
+// Task #2: Create a simple web application with the following features : header,content
+import './index.scss';
+import headerHtml from './components/header.html';
+import contentHtml from './components/content.html';
+import footerHtml from './components/footer.html';
 
-document.body.innerHTML = `${Header()}${Content()}${Footer()}`;
+
+document.body.innerHTML = `${headerHtml}${contentHtml}${footerHtml}`;
+document.getElementById('tools-list').innerHTML = tools.map(
+    tool =>
+        
+    `
+    <li>
+        ${_.capitalize(tool.name)}
+    </li>`
+).join('');
