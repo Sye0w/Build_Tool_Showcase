@@ -1,15 +1,15 @@
 // Task #4: Create a production configuration
-const { merge } = require('webpack-merge');
-const common = require('./webpack.config.js');
-const TerserPlugin = require('terser-webpack-plugin');
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const path = require('path');
+import { merge } from 'webpack-merge';
+import common from './webpack.config.js';
+import TerserPlugin from 'terser-webpack-plugin';
+import CssMinimizerPlugin from 'css-minimizer-webpack-plugin';
+import { resolve } from 'path';
 
-module.exports = merge(common, {
+export default merge(common, {
     mode: 'production',
     output: {
         filename: '[name].[contenthash].js',
-        path: path.resolve(__dirname, 'dist'),
+        path: resolve(__dirname, 'dist'),
     },
     optimization: {
         minimize: true,
