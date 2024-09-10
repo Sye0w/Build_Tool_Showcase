@@ -45,7 +45,7 @@ module.exports = {
         })
     ],
 
-    
+    // Task 6: use souce map for debugging
     devtool: 'source-map',
 
     // Task #7: Setup a local development server using webpack-dev-server
@@ -59,11 +59,5 @@ module.exports = {
     },
     mode: 'development',
 
-    // Task#9: Optimize the production build
-    optimization: {  
-        splitChunks: { 
-            chunks: 'all',  
-        },  
-        minimize: true,
-    },
+   
 };
