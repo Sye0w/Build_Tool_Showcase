@@ -1,0 +1,5 @@
+// Task #5 : Use Babel for browser compatibilty
+{
+    "presets": ["@babel/preset-env"]
+}
+  
