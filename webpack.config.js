@@ -7,6 +7,7 @@ module.exports = {
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
+        publicPath: '/'
     },
     module: {
         rules: [
@@ -27,6 +28,10 @@ module.exports = {
                     'css-loader',
                     'sass-loader'
                 ]
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
             },
             {
                 test: /\.html$/,
