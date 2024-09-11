@@ -1,12 +1,13 @@
 // Task #4: Create a production configuration
-import { merge } from 'webpack-merge';
-import common from './webpack.config.js';
+const { merge } = require('webpack-merge');
+const common = require('./webpack.config.js');
+const path = require('path');
 
-export default merge(common, {
+module.exports = merge(common, {
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
-        static: './dist',
+        static: path.join(__dirname, '/public/assets/images'),
         hot: true,
     },
 });

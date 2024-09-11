@@ -1,37 +1,37 @@
 [
     { 
         "name": "Webpack",
-        "image": "../images/wbapack.webp", 
+        "image": "./wbapack.webp", 
         "desc": "Module bundler for modern JavaScript applications",
         "link": "https://webpack.js.org/" 
     },
     { 
         "name": "Gulp", 
-        "image": "../images/gulp.webp",  
+        "image": "./gulp.webp",  
         "desc": "Automate development tasks with streaming builds",
         "link": "https://gulpjs.com/" 
     },
     { 
         "name": "Rollup", 
-        "image": "../images/rollup.webp",
+        "image": "./rollup.webp",
         "desc": "Modular bundler for JavaScript libraries",
         "link": "https://rollupjs.org/" 
     },
     { 
         "name": "Parcel",
-        "image": "../images/parcel.webp",
+        "image": "./parcel.webp",
         "desc": "Zero-configuration bundler for web projects", 
         "link": "https://parceljs.org/" 
     },
     { 
         "name": "Grunt", 
-        "image": "../images/grunt.webp",  
+        "image": "./grunt.webp",  
         "desc": "Task-based JavaScript build system",
         "link": "https://gruntjs.com/" 
     },
     { 
         "name": "Vite",  
-        "image": "../images/vite.webp",   
+        "image": "./vite.webp",   
         "desc": "Next generation frontend build tool for lightning-fast development", 
         "link": "https://vitejs.dev/" 
     }
