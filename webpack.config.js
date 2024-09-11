@@ -7,6 +7,7 @@ module.exports = {
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
+        clean: true,
         publicPath: '/'
     },
     module: {
@@ -30,7 +31,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
                 type: 'asset/resource',
             },
             {
