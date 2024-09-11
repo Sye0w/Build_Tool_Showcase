@@ -19,7 +19,7 @@
     },
     { 
         "name": "Parcel",
-        "image": "./parcel.webp",
+        "image": "./parcel.png",
         "desc": "Zero-configuration bundler for web projects", 
         "link": "https://parceljs.org/" 
     },
