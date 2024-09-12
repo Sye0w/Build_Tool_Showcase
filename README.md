@@ -14,16 +14,16 @@ This project is a small web application that demonstrates the use of various bui
    ```npm install
 
 3. **Start development server:**
-   ```npm start
+   - npm  start
 
 4. **Create a production build:**
-   ```npm  build
+   - npm  run build
 
 5. **Run linting:**
-   ```npm  lint
+   - npm lint
 
 6. **Run test:**
-   ```npm  test
+   - npm  test
 
 
 **Available npm Scripts and Their Purposes:**
