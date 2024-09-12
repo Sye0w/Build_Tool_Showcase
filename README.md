@@ -11,7 +11,7 @@ This project is a small web application that demonstrates the use of various bui
    cd build-tool-showcase
 
 2. **Install dependencies:**
-   ```npm install
+   - npm  install
 
 3. **Start development server:**
    - npm  start
